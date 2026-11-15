@@ -487,22 +487,3 @@ The selected model achieves a final test F1-score of 0.7766, with precision of 0
 
 Together, the two workflows demonstrate automated data engineering, database integration, model evaluation, and iterative agent-based experimentation.
 
----
-
-# Submission Checklist
-
-The repository should include:
-
-- [ ] Airflow DAG (`dags/financial_risk_dag.py`)
-- [ ] Data ingestion and transformation code
-- [ ] Modified LangGraph agent workflow (`src/agents/fraud_agent_workflow.py`)
-- [ ] Agent graph rendering code (`src/agents/render_agent_graph.py`)
-- [ ] Dockerfile and Docker Compose configuration
-- [ ] Requirements file
-- [ ] README with setup and execution instructions
-- [ ] Screenshot of successful Airflow DAG execution
-- [ ] Screenshot of the Airflow DAG graph view
-- [ ] Screenshot of the modified agent graph
-- [ ] Screenshot of the agent model evaluation results
-
-Raw datasets, generated data files, logs, and credentials should not be committed unless specifically required by the instructor.
