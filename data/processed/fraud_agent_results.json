@@ -1,0 +1,119 @@
+{
+    "selected_experiment": "Higher Fraud Penalty",
+    "selected_configuration": {
+        "name": "Higher Fraud Penalty",
+        "class_weight": {
+            "0": 1,
+            "1": 10
+        },
+        "C": 1.0
+    },
+    "validation_metrics": {
+        "precision": 0.6896551724137931,
+        "recall": 0.851063829787234,
+        "f1_score": 0.7619047619047619,
+        "roc_auc": 0.9588056322455106,
+        "average_precision": 0.7938991215643271,
+        "confusion_matrix": [
+            [
+                56615,
+                36
+            ],
+            [
+                14,
+                80
+            ]
+        ]
+    },
+    "test_metrics": {
+        "precision": 0.7849462365591398,
+        "recall": 0.7684210526315789,
+        "f1_score": 0.776595744680851,
+        "roc_auc": 0.9428855717695326,
+        "average_precision": 0.7005703652475788,
+        "confusion_matrix": [
+            [
+                56631,
+                20
+            ],
+            [
+                22,
+                73
+            ]
+        ]
+    },
+    "experiment_history": [
+        {
+            "experiment": "Balanced Logistic Regression",
+            "class_weight": "balanced",
+            "C": 1.0,
+            "validation_metrics": {
+                "precision": 0.045627376425855515,
+                "recall": 0.8936170212765957,
+                "f1_score": 0.08682170542635659,
+                "roc_auc": 0.9771709725504836,
+                "average_precision": 0.7879060186433469,
+                "confusion_matrix": [
+                    [
+                        54894,
+                        1757
+                    ],
+                    [
+                        10,
+                        84
+                    ]
+                ]
+            }
+        },
+        {
+            "experiment": "Higher Fraud Penalty",
+            "class_weight": {
+                "0": 1,
+                "1": 10
+            },
+            "C": 1.0,
+            "validation_metrics": {
+                "precision": 0.6896551724137931,
+                "recall": 0.851063829787234,
+                "f1_score": 0.7619047619047619,
+                "roc_auc": 0.9588056322455106,
+                "average_precision": 0.7938991215643271,
+                "confusion_matrix": [
+                    [
+                        56615,
+                        36
+                    ],
+                    [
+                        14,
+                        80
+                    ]
+                ]
+            }
+        },
+        {
+            "experiment": "Stronger Fraud Penalty",
+            "class_weight": {
+                "0": 1,
+                "1": 25
+            },
+            "C": 0.5,
+            "validation_metrics": {
+                "precision": 0.5093167701863354,
+                "recall": 0.8723404255319149,
+                "f1_score": 0.6431372549019608,
+                "roc_auc": 0.9646730241189334,
+                "average_precision": 0.7883194117528954,
+                "confusion_matrix": [
+                    [
+                        56572,
+                        79
+                    ],
+                    [
+                        12,
+                        82
+                    ]
+                ]
+            }
+        }
+    ]
+}

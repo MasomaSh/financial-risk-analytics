@@ -1,0 +1,23 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	data_scientist(data_scientist)
+	hypothesis(hypothesis)
+	ml_engineer(ml_engineer)
+	judge(judge)
+	final_evaluation(final_evaluation)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> data_scientist;
+	data_scientist --> hypothesis;
+	hypothesis --> ml_engineer;
+	judge -.-> final_evaluation;
+	judge -.-> hypothesis;
+	ml_engineer --> judge;
+	final_evaluation --> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc

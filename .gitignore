@@ -1,0 +1,21 @@
+# Environment variables and secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Airflow logs
+logs/
+
+# Raw datasets
+data/raw/
+
+# Generated processed data
+data/processed/*.csv
+
+# OS files
+.DS_Store
